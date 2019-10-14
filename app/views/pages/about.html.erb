@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Rails Test App</title>
+        <%= stylesheet_link_tag 'homepage', media: 'all', 'data-turbolinks-track': 'reload' %>
+    </head>
+    <body>
+        <div class="page">
+            <div class="header">
+                <div class="title">
+                    <h1>RAILS TEST APP</h1>
+                </div>
+                <div class="menu">
+                    <div class="links">
+                        <div class="button">
+                            <%= link_to 'HOME', root_path %>
+                        </div>
+                        <div class="button">
+                            <%= link_to 'ABOUT', about_path %>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="title">
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="container left">
+                    <div class="text-box">
+                        SOMETHING SOMETHING
+                    </div>
+                </div>
+                
+                <div class="container right">
+                    <div class="text-box">
+                        THIS IS ABOUT PAGE
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">
+                <div class="footer-content">
+                    Copyright ©
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

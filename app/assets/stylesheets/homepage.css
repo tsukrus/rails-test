@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+}
+
+.page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.header {
+    position: relative;
+    top: 0;
+    height: 200px;
+    background-color: black;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 35px;
+}
+
+.menu {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.links {
+    margin: auto;
+    height: 50px;
+    display: flex;
+    width: 500px;
+}
+
+.button {
+    width: 250px;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+.links * {
+    color: #AAA;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.links *:hover {
+    color:white;
+}
+
+.content {
+}
+
+.container {
+    height: calc(100% - 300px);
+    width: 50%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text-box {
+    margin:25px 50px;
+    height: calc(100% - 50px);
+    font-size: 24px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color: black;
+    width: 100%;
+}
+
+.footer-content {
+    color: white;
+    text-align: center;
+    margin-top: 35px;
+}
+
